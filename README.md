@@ -14,8 +14,7 @@ module.exports = {
             // if true place head assets after body assets 
             // if false place head assets before body assets
             append: false
-        }),
-        new htmlWebpackAlterAssetPlugin()
+        })
     }
     ...
 }
