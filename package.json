@@ -1,0 +1,17 @@
+{
+  "name": "move-head-assets-to-body-webpack-plugin",
+  "version": "0.1",
+  "description": "A Webpack plugin to move assest from head to body",
+  "main": "index.js",
+  "repository": "https://github.com/carlosrberto/move-head-assets-to-body-webpack-plugin",
+  "author": "Carlos Roberto Gomes Junior",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "version-bump-prompt": "^4.1.0"
+  },
+  "scripts": {
+    "bump": "bump --prompt --commit --tag --push",
+    "prepublishOnly": "npm run build && npm run bump"
+  }
+}
